@@ -30,4 +30,8 @@ public class Hotel {
         bedroom.removeGuest();
     }
 
+//    public Booking bookRoom(int, bedroom) {
+//        return Booking();
+//    }
+
 }
