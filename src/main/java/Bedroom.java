@@ -29,4 +29,12 @@ public class Bedroom {
         return guests.size();
     }
 
+    public void addGuest(Guest guest){
+        this.guests.add(guest);
+    }
+
+    public Guest removeGuest() {
+        return this.guests.remove(0);
+    }
+
 }
